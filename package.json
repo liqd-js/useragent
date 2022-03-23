@@ -1,0 +1,31 @@
+{
+  "name": "@liqd-js/useragent",
+  "description": "User Agent",
+  "version": "1.0.0",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/useragent.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liqd-js/useragent.git"
+  },
+  "keywords": [
+    "useragent",
+    "crawler",
+    "bot",
+    "liqd-js",
+    "liqd"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.1"
+  }
+}
